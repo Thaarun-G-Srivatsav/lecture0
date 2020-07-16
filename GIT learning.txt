@@ -46,13 +46,13 @@ if i do push now it will not accept because the newbranch name is not creating o
 8.If i want to add the branches i can use MERGE.
 in cmd type: git merge branch_name(which branch name u want &&&&& and also make sure u went to the old branch name by using checkout method) then the branches codes will be added .
 
-*******************ONCE YOU DO ONE CLONE IN UR SYSTEM UNLESS U CHANGE THE NEXT REPOSITORY CLONE THE SAME REPOSITORY WILL BE SAME ALWAYS SO U CAN DIRECTLY GO TO THE GIT COMMANDS***********
-HTML STARTED
+*******************ONCE YOU DO ONE CLONE IN UR SYSTEM UNLESS U CHANGE THE NEXT REPOSITORY CLONE THE SAME REPOSITORY WILL BE SAME ALWAYS SO U CAN DIRECTLY GO TO THE GIT COMMANDS(but also make sure ur repository is stilll live sometimes it will go)***********
+*********HTML STARTED**********
 1.new thing i learnt is in image tag if u give height="500" width="500" this will fit the image and if u shrink the image will be still on the same size 
 to overtake this i found a technique when we give like heright="50% width="50%" then even though u shrink ur browser ur image will automatically adjust to the window.
  2.in form placeholder="ur wish of text" whateva u type in dis attribute this jus appears  inside the textbox as giving them hint to know what to type there.
 3.in<a> tag ther is attributes called target,title where title displays the message when thre mouse pointer comes near the link and target loads the specific webpage u metnioned in a new tab
-CSS STARTED
+**********CSS STARTED**********
  there are 3 diff ways to render css styles into htl
 1. simpler where we add css code in the tag directly eg: <p "style=colo:red;"> hi everyone </p> in dis evn though there is 'n' number of <p> tags it will change only the tag uve inserted.
 2. putting the tag name and creating the style in the header tag ..eg <style> p { color:"red"; } </style> this denotes all the paragraph tags to be in red in color not like the first method.
