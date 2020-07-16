@@ -1,0 +1,68 @@
+learing about git&github
+github is a website which contains all ur work projects for others to see and use
+git - it is opensource tool which is used to acces ur github acc/repository u schoose from ur cmd to the github acc.
+
+first download 'git' in ur windows this is the tool which remotely acces ur github account
+
+create repository in the github and
+ 1.CLONE in cmd type - git clone "url" ull be repositered in the cmd 
+
+the wirte "touch filename.fileextensin" this will create a new file (but not so used in windows so u got the 
+repository area in ur users and do whatever u want like creating htmlfiles or anycoding files u do it there)
+
+then 
+2. ADD in cmd type----- git add "filename.fileextension" ------this cmnd will add the file to ur github acc of ur repository
+then
+3. COMMIT in cmd type--- git commit -m"ur message"---------- this cmnd will save the file with the message uve given into the github
+  3.1 ADD+COMMIT -git can also fo the twocommand add&commit at the same time :----> in cmd type: git commit -am "ur message"---->this will add+commit with thenmessage you wanted to display (jus to be more efficeint,no other big deal in this)
+by this all the files will be saved in ur computer and now how will it go get saved in github acc?
+ PUSH-is the method which will take all the correction/chanegs u made in ur computer in that following repository 
+it will take all and save it to ur github acc
+4.  PUSH 
+      in cmd type ---- git push--this cmnd will save all ur files into ur github acc.
+what if someone changes my code there in the github itself and how iwll i see the new modification made to the file
+5.PULL method is used to pull the new modifications made in my project and it changes the old version automatically which is persent in my computer.
+       in cmd type--- git pull---this cmnd will pull all the modified changes in the github acc of ur repository 
+6. MERGE CONFLICTS is the one of the error handling method
+    like that if im doing one change in the file and committing it simaltenously the third party changes in the github acc also
+   when i do a pull the git gets confued and ask me to resolve it . 
+the syntax of the error will be reflected in my old version file and will be in form of
+>>>>>head 
+my changes and my version 
+================
+the tird party changes will be come like
+<<<<<<<csa423423jr232434rsdff342313123324dfsdfsdf
+from head to =(symbol) is ur change and if u press use me then the git will resolve the file and next u add and commit the problem will be fixed
+=======
+7.BRANCH this is another  cmnd in  git where u can create a branch when im going in lin1 if theere is a error in len1 and i dont want to deistubr it and ii want to create a new line but there are lot file left behind
+so i can put all that and can create new line2 (new branch) in whcih i can solve the bug move on with my project
+   in cmd type: git branch ------> it will show you the current branch ur working with * sign and highleting it with a color.
+   in cmd type: git branch new_branch_name -->> ur new branch will be created but the git will remain in the old branch unless you say it to change to the new branch
+ 7.1 TO CREATE A NEW BRANCH CHECKOUT
+          in cmd type:: git checkout new_branch_name--> this will make git to go into the new branch and wont disturb the old branch whateva u add will be added to this tree.
+if i do push now it will not accept because the newbranch name is not creating on my github acc so i need to put an command like
+           in cmd type: git push --set-upstream origin new_branch_name. this will add the new branch in the github acc and then no need to do this eveytime
+           when u once upstream with ur newbranch name automatically next time u can jus use push ..(but remb when ever u create a new branch and to save the changes in ur github acc u have to do this upstream)
+8.If i want to add the branches i can use MERGE.
+in cmd type: git merge branch_name(which branch name u want &&&&& and also make sure u went to the old branch name by using checkout method) then the branches codes will be added .
+
+*******************ONCE YOU DO ONE CLONE IN UR SYSTEM UNLESS U CHANGE THE NEXT REPOSITORY CLONE THE SAME REPOSITORY WILL BE SAME ALWAYS SO U CAN DIRECTLY GO TO THE GIT COMMANDS***********
+HTML STARTED
+1.new thing i learnt is in image tag if u give height="500" width="500" this will fit the image and if u shrink the image will be still on the same size 
+to overtake this i found a technique when we give like heright="50% width="50%" then even though u shrink ur browser ur image will automatically adjust to the window.
+ 2.in form placeholder="ur wish of text" whateva u type in dis attribute this jus appears  inside the textbox as giving them hint to know what to type there.
+3.in<a> tag ther is attributes called target,title where title displays the message when thre mouse pointer comes near the link and target loads the specific webpage u metnioned in a new tab
+CSS STARTED
+ there are 3 diff ways to render css styles into htl
+1. simpler where we add css code in the tag directly eg: <p "style=colo:red;"> hi everyone </p> in dis evn though there is 'n' number of <p> tags it will change only the tag uve inserted.
+2. putting the tag name and creating the style in the header tag ..eg <style> p { color:"red"; } </style> this denotes all the paragraph tags to be in red in color not like the first method.
+3. this method is same as the header tag how we inserted here also we will say like p{ color:"red";} in a new empty file only with these lines and save it as "filename.css" 
+then in the html file inside the header section we should use LINK tag which will link the css file to this html file.. <link rel="stylesheet" href="filename.css"></link> this will take all the styles added in that file and render it inot html file.
+4.in style we can give two tagnames by placing ',' inbetween them so the same style will be applied to both the tags.(this is done when we put the styles in the header section)
+5. padding is the text moving from the box leaving the space and its not linked with the website box. 
+    margin is the whole box moving form the website box.
+6 when same two tags are there but if i put the tag name and style then all the tag with the same name will apply the styles..so i ant to specifically say by giving id 
+'# id_name' { your styles } in the header section or in a new file saving it as .css then this will make only the tags with that id to aplly the styles.
+   6.1 we can also do this for name where as if i give a class in that class there is many id but i want the entire class wil same style but the id are different so i can use class name 
+         ' . class_name' { your styles } in the header section or in a new file saving it as .css then this will make only the tag with that class name to aplle the styles.
+NOTE: class , id can in be given any tags and they both can be given simaltenously or even seperately.
