@@ -9,7 +9,7 @@ create repository in the github and
 
 the wirte "touch filename.fileextensin" this will create a new file (but not so used in windows so u got the 
 repository area in ur users and do whatever u want like creating htmlfiles or anycoding files u do it there)
-
+ (MAKE SURE IF YOU ADD ANYTHING FROM UR COMPUTER TO GITHUB ACC REMEMBER THE FILE U WANT TO ADD SHOULD BE COPIED OR MOVED TO THE REPOSITORY FOLDER WHICH IS CLONED INTO YOUR CPMPUTER) 
 then 
 2. ADD in cmd type----- git add "filename.fileextension" ------this cmnd will add the file to ur github acc of ur repository
 then
