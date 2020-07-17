@@ -9,17 +9,17 @@ create repository in the github and
 
 the wirte "touch filename.fileextensin" this will create a new file (but not so used in windows so u got the 
 repository area in ur users and do whatever u want like creating htmlfiles or anycoding files u do it there)
+then
  (MAKE SURE IF YOU ADD ANYTHING FROM UR COMPUTER TO GITHUB ACC REMEMBER THE FILE U WANT TO ADD SHOULD BE COPIED OR MOVED TO THE REPOSITORY FOLDER WHICH IS CLONED INTO YOUR CPMPUTER) 
-then 
 2. ADD in cmd type----- git add "filename.fileextension" ------this cmnd will add the file to ur github acc of ur repository
 then
 3. COMMIT in cmd type--- git commit -m"ur message"---------- this cmnd will save the file with the message uve given into the github
-  3.1 ADD+COMMIT -git can also fo the twocommand add&commit at the same time :----> in cmd type: git commit -am "ur message"---->this will add+commit with thenmessage you wanted to display (jus to be more efficeint,no other big deal in this)
+  3.1 ADD+COMMIT -git can also fo the twocommand add&commit at the same time :-> in cmd type: git commit -am "ur message"-->this will add+commit with thenmessage you wanted to display (jus to be more efficeint,no other big deal in this)
 by this all the files will be saved in ur computer and now how will it go get saved in github acc?
  PUSH-is the method which will take all the correction/chanegs u made in ur computer in that following repository 
 it will take all and save it to ur github acc
 4.  PUSH 
-      in cmd type ---- git push--this cmnd will save all ur files into ur github acc.
+      in cmd type ---- git push--this cmnd will save all ur files into ur github acc.(unless u push no changes will save in github acc so always do add->commit->push simaltenously next to next or add+commit->push ).
 what if someone changes my code there in the github itself and how iwll i see the new modification made to the file
 5.PULL method is used to pull the new modifications made in my project and it changes the old version automatically which is persent in my computer.
        in cmd type--- git pull---this cmnd will pull all the modified changes in the github acc of ur repository 
@@ -46,16 +46,19 @@ if i do push now it will not accept because the newbranch name is not creating o
 8.If i want to add the branches i can use MERGE.
 in cmd type: git merge branch_name(which branch name u want &&&&& and also make sure u went to the old branch name by using checkout method) then the branches codes will be added .
 
-*******************ONCE YOU DO ONE CLONE IN UR SYSTEM UNLESS U CHANGE THE NEXT REPOSITORY CLONE THE SAME REPOSITORY WILL BE SAME ALWAYS SO U CAN DIRECTLY GO TO THE GIT COMMANDS(but also make sure ur repository is stilll live sometimes it will go)***********
-*********HTML STARTED**********
+*******************ONCE YOU DO ONE CLONE IN UR SYSTEM UNLESS U CHANGE THE NEXT REPOSITORY CLONE THE SAME REPOSITORY WILL BE SAME ALWAYS SO U CAN DIRECTLY GO TO THE GIT COMMANDS***********
+HTML STARTED
 1.new thing i learnt is in image tag if u give height="500" width="500" this will fit the image and if u shrink the image will be still on the same size 
 to overtake this i found a technique when we give like heright="50% width="50%" then even though u shrink ur browser ur image will automatically adjust to the window.
  2.in form placeholder="ur wish of text" whateva u type in dis attribute this jus appears  inside the textbox as giving them hint to know what to type there.
 3.in<a> tag ther is attributes called target,title where title displays the message when thre mouse pointer comes near the link and target loads the specific webpage u metnioned in a new tab
-**********CSS STARTED**********
+4.inside forms studied new thar is called DATALIST tag where it is also lick dropdown/selctionbox but we can type in selectonbox here in dis case we can type inside the datalist box and it will show the referrence of the alpahbets ur typing
+like if we go to country section and put 'L' it will show u the coutnries name starting with 'L' this is the use of datalist tag
+5.learn how to insert video , audio files .
+CSS STARTED
  there are 3 diff ways to render css styles into htl
 1. simpler where we add css code in the tag directly eg: <p "style=colo:red;"> hi everyone </p> in dis evn though there is 'n' number of <p> tags it will change only the tag uve inserted.
-2. putting the tag name and creating the style in the header tag ..eg <style> p { color:"red"; } </style> this denotes all the paragraph tags to be in red in color not like the first method.
+2. putting the tag name and creating the style inside the header tag ..eg <style> p { color:"red"; } </style> this denotes all the paragraph tags to be in red in color not like the first method.
 3. this method is same as the header tag how we inserted here also we will say like p{ color:"red";} in a new empty file only with these lines and save it as "filename.css" 
 then in the html file inside the header section we should use LINK tag which will link the css file to this html file.. <link rel="stylesheet" href="filename.css"></link> this will take all the styles added in that file and render it inot html file.
 4.in style we can give two tagnames by placing ',' inbetween them so the same style will be applied to both the tags.(this is done when we put the styles in the header section)
@@ -66,3 +69,12 @@ then in the html file inside the header section we should use LINK tag which wil
    6.1 we can also do this for name where as if i give a class in that class there is many id but i want the entire class wil same style but the id are different so i can use class name 
          ' . class_name' { your styles } in the header section or in a new file saving it as .css then this will make only the tag with that class name to aplle the styles.
 NOTE: class , id can in be given any tags and they both can be given simaltenously or even seperately.
+7 HOVER attribute which something is used to highlight when the cursor comes on topof it .
+    for eg inside the header field ..
+<style>
+   button { backgoroud-color :'red' ; height:'200px'; width='200px'; font-size='24px; }
+   button:hover{background-color:'black';}
+                  
+ </style>
+in dis code the button will be in red color if the cursor comes to click it changes to black color that is the use of hover hwich show a new color when a cursor comes ontop of it
+8.
